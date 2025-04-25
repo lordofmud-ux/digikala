@@ -1,0 +1,89 @@
+.left{
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        .wrapper-1{
+            width: 100%;
+            height: 255px;
+            display: flex;
+            justify-content:center;
+            flex-flow: column wrap;
+            align-items: center;
+            gap: 10px;
+            
+        }
+        .photo{
+            width: 100%;
+            height:132px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 132px;
+                height: 132px;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        .pro-1{
+            width: 144px;
+            height: 40px;
+            font-size: 12px;
+            opacity: 0.6;
+            text-align: right;
+            line-height: 20px;
+            overflow: hidden;
+        }
+        .dis-1{
+            width: 100%;
+            height: 24px;
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            padding-right: 10px;
+            justify-content: center;
+            margin-bottom: 10px;
+            .right-r1{
+                width: 40px;
+        height: 20px;
+        border-radius: 20px;
+        background-color: #EE394F;
+        display: flex;
+        flex-flow: column wrap;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+            }
+            .left-l1{
+                width: 144px;
+                height: 20px;
+                font-size: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-right: 20px;
+            }
+        }
+
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+}
