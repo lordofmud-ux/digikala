@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,24 +7,26 @@
 }
 
 
-:root{
-    --font-family:yekan;
+:root {
+    --font-family: yekan;
 }
+
 @font-face {
-    font-family:yekan;
+    font-family: yekan;
     src: url(./assets/fonts/IRANYekanWeb.eot);
     src: url(./assets/fonts/IRANYekanWeb.woff);
     src: url(./assets/fonts/IRANYekanWeb.woff2);
     src: url(./assets/fonts/IRANYekanWeb.ttf);
 }
+
 @font-face {
-    font-family:new;
+    font-family: new;
     src: url(./assets/fonts/KalamehFaNum-Regular.ttf);
     src: url(./assets/fonts/KalamehFaNum-Regular.eot);
     src: url(./assets/fonts/KalamehFaNum-Regular.woff);
     src: url(./assets/fonts/KalamehFaNum-Regular.woff2);
 }
 
-.main{
+.main {
     width: 100%;
 }

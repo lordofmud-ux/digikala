@@ -1,0 +1,112 @@
+@import "./settings.css";
+@import "./header.css";
+@import "./story.css";
+@import "./slider.css";
+@import "./item-1.css";
+@import "./carousel.css";
+@import "./swiper.css";
+@import "./index.css";
+@import "./mygoodsswiper.css";
+@import "./media/mobile.css";
+
+
+
+
+@media (max-width: 768px) {
+  .header,
+  .menu,
+  .register,
+  .icon,
+  .item-1,
+  .carousel,
+  .discount,
+  .products,
+  .footer {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .header .search input {
+    width: 100% !important;
+    max-width: 90% !important;
+  }
+
+  .item-1 > div,
+  .products .parts-1,
+  .products .parts-2,
+  .products .parts-3,
+  .products .parts-4 {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container,
+  .Brand-Slider,
+  .phone,
+  .most-sales,
+  .magazin,
+  .footer {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .phone {
+    flex-wrap: wrap !important;
+    height: auto !important;
+  }
+
+  .phone .parts-1,
+  .phone .parts-2,
+  .phone .parts-3,
+  .phone .parts-4 {
+    width: 100% !important;
+    border: none !important;
+  }
+
+  .magazin .main-magazin {
+    flex-wrap: wrap !important;
+  }
+
+  .footer .contact-us {
+    flex-direction: column !important;
+    gap: 20px !important;
+    height: auto !important;
+  }
+
+  .footer .contact-us .contact-1,
+  .footer .contact-us .contact-2,
+  .footer .contact-us .contact-3,
+  .footer .contact-us .contact-4 {
+    width: 90% !important;
+    height: auto !important;
+  }
+
+  .footer .stores {
+    flex-direction: column !important;
+    height: auto !important;
+  }
+
+  .footer .stores-right,
+  .footer .stores-left {
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 10px 0 !important;
+  }
+}
